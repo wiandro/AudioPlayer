@@ -32,7 +32,7 @@
         android:layout_marginEnd="8dp"
         android:layout_toEndOf="@id/expanded_notification_image_view"
         android:layout_toRightOf="@id/expanded_notification_image_view"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/colorTextPrimary"
         android:textSize="@dimen/body1" />
 
@@ -45,7 +45,7 @@
         android:layout_marginEnd="8dp"
         android:layout_toEndOf="@id/expanded_notification_image_view"
         android:layout_toRightOf="@id/expanded_notification_image_view"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/colorTextSecondary"
         android:textSize="@dimen/caption" />
 
