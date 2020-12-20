@@ -40,6 +40,10 @@ android {
         experimental = true
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {

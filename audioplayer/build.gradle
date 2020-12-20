@@ -1,6 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 30
@@ -8,8 +11,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 103
-        versionName "1.0.3"
+        versionCode rootProject.ext.library_version_code
+        versionName rootProject.ext.library_version_name
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
@@ -25,6 +28,10 @@ android {
     }
 
 
+}
+
+configurations {
+    javadocDeps
 }
 
 dependencies {
@@ -48,4 +55,6 @@ dependencies {
     testImplementation 'org.mockito:mockito-core:2.25.0'
     testImplementation 'org.mockito:mockito-inline:2.21.0'
 
+    javadocDeps 'androidx.annotation:annotation:1.1.0'
 }
+apply from: 'deploy.gradle'
