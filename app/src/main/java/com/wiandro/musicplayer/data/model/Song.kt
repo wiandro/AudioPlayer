@@ -3,7 +3,7 @@ package com.wiandro.musicplayer.data.model
 import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.wiandro.player.model.ASong
+import com.wiandro.audioplayer.model.ASong
 import kotlinx.android.parcel.Parcelize
 
 @Suppress("DIFFERENT_NAMES_FOR_THE_SAME_PARAMETER_IN_SUPERTYPES")

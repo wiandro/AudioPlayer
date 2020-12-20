@@ -15,7 +15,7 @@ import com.wiandro.musicplayer.data.model.Song
 import com.wiandro.musicplayer.presentation.songplayer.SongPlayerActivity
 import com.google.android.material.snackbar.Snackbar
 import com.wiandro.musicplayer.R
-import com.wiandro.player.BaseSongPlayerActivity
+import com.wiandro.audioplayer.BaseSongPlayerActivity
 import kotlinx.android.synthetic.main.activity_playlist.*
 import kotlinx.android.synthetic.main.content_main.*
 import org.koin.android.viewmodel.ext.android.viewModel

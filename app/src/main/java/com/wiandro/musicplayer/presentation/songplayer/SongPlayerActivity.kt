@@ -10,10 +10,10 @@ import coil.api.load
 import coil.request.CachePolicy
 import com.wiandro.musicplayer.R
 import com.wiandro.musicplayer.data.model.Song
-import com.wiandro.player.BaseSongPlayerActivity
-import com.wiandro.player.model.ASong
-import com.wiandro.player.util.OnSwipeTouchListener
-import com.wiandro.player.util.formatTimeInMillisToString
+import com.wiandro.audioplayer.BaseSongPlayerActivity
+import com.wiandro.audioplayer.model.ASong
+import com.wiandro.audioplayer.util.OnSwipeTouchListener
+import com.wiandro.audioplayer.util.formatTimeInMillisToString
 import kotlinx.android.synthetic.main.activity_song_player.*
 import java.io.File
 
