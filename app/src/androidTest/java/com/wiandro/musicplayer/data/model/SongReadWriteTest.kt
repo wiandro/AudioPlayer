@@ -1,5 +1,6 @@
 package com.wiandro.musicplayer.data.model
 
+/*
 
 import androidx.room.Room
 import androidx.test.platform.app.InstrumentationRegistry
@@ -48,4 +49,4 @@ class SongReadWriteTest {
         val byName = songDao.loadOneBySongTitle("Boom")
         assertThat(byName, equalTo(song))
     }
-}
+}*/

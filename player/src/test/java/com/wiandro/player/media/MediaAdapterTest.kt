@@ -1,4 +1,5 @@
 package com.wiandro.player.media
+/*
 
 import com.android.player.exo.OnExoPlayerManagerCallback
 import com.android.player.exo.PlaybackState
@@ -67,4 +68,4 @@ class MediaAdapterTest {
         assertTrue(currentSongList?.size != 0)
     }
 
-}
+}*/

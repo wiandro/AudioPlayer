@@ -1,4 +1,5 @@
 package com.wiandro.player.service
+/*
 
 import android.content.Context
 import android.content.Intent
@@ -74,4 +75,4 @@ class SongPlayerServiceTest {
         serviceSong.onDestroy()
         assert(serviceSong.mCallback == null) // Verify that the service is destroyed.
     }
-}
+}*/

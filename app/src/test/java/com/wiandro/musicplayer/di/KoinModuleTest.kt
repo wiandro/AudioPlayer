@@ -1,5 +1,6 @@
 package com.wiandro.musicplayer.di
 
+/*
 import org.junit.Test
 import org.koin.core.logger.Level
 import org.koin.dsl.koinApplication
@@ -15,4 +16,4 @@ class KoinModuleTest : AutoCloseKoinTest() {
            // modules(listOf(AppModule))
         }.checkModules()
     }
-}
+}*/
